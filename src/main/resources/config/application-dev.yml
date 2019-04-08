@@ -35,9 +35,9 @@ spring:
         serialization.indent_output: true
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:h2:file:./target/h2db/db/jhipstersampleapplication;DB_CLOSE_DELAY=-1
-        username: jhipsterSampleApplication
-        password:
+        url: jdbc:mysql://localhost:3306/web-service?useSSL=false
+        username: root
+        password: root
         hikari:
             auto-commit: false
     h2:
